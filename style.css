@@ -238,14 +238,13 @@ body {
     grid-template-columns: repeat(2, minmax(460px, 520px));
     grid-template-rows: repeat(2, minmax(153px, 180px));
     margin-top: 60px;
-    gap: 40px;
+    gap: 40px 330px;
 }
 
 .img__comment--item {
     display: flex;
     align-items: stretch;
     gap: 20px;
-    /*margin-right: 53px;*/
 }
 
 .comments__container {
@@ -586,7 +585,38 @@ body {
     }
 
     .collections__tea--image {
-        max-width: 190px;
+        max-width: 190px;  
         object-fit: cover;
     }
+
+    .customer__comments-list {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 26;
+    }
+
+    .img__comments--list {
+        display: grid;
+        grid-template-columns: repeat(2, 230px);
+        grid-template-rows: repeat(2, 153px);
+        margin-top: 60px;
+        gap: 67px 250px;
+    }
+    
+    .img__comment--item {
+        display: flex;
+        align-items: stretch;
+        gap: 20;
+    }
+    
+    .comment__text {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 24px;
+        color: #151618;
+        min-width: 210px;
+    }
+
+    
+    
 }
