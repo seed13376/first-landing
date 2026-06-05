@@ -537,6 +537,7 @@ body {
         padding-left: 20px;
         padding-right: 20px;
     }
+    
     .header__inner {
         display: flex;
         justify-content: space-between;
@@ -579,16 +580,8 @@ body {
     .collections__tea-list {
         text-align: center;
         display: flex;
-        /*flex-wrap: wrap;*/
-        align-items: center;
-        max-width: 100%;
-    }
-
-    .collections__tea-item{
-        display: flex;
         flex-wrap: nowrap;
-        text-align: center;
-        gap: 40px;
+        align-items: center;
     }
 }
 
