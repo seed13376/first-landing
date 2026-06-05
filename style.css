@@ -537,7 +537,7 @@ body {
         padding-left: 20px;
         padding-right: 20px;
     }
-    
+
     .header__inner {
         display: flex;
         justify-content: space-between;
@@ -561,7 +561,7 @@ body {
         color: #151618;
         padding-right: 116px;
     }
-    
+
     .tea {
         background-image: url(images/backgrounde.jpg);
         background-repeat: no-repeat;
@@ -582,9 +582,11 @@ body {
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
+        gap: 0;
+    }
+
+    .collections__tea--image {
+        max-width: 190px;
+        object-fit: cover;
     }
 }
-
-
-
-
