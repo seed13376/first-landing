@@ -110,11 +110,13 @@ body {
     font-size: 18px;
     color: #151618;
 }
+
 .nav__controls {
     display: flex;
     align-items: center;
     gap: 100px;
 }
+
 .controls__user {
     display: flex;
     align-items: center;
@@ -238,7 +240,7 @@ body {
     grid-template-columns: repeat(2, minmax(460px, 520px));
     grid-template-rows: repeat(2, minmax(153px, 180px));
     margin-top: 60px;
-    gap: 40px 330px;
+    gap: 0 58px;
 }
 
 .img__comment--item {
@@ -274,7 +276,8 @@ body {
 
 .button__send {
     display: flex;
-    margin: 60px auto 250px auto;
+    margin-top: 60px;
+    margin-inline: auto;
     padding: 12px 41px;
     border: 1px solid #000;
     font-weight: 300;
@@ -283,6 +286,7 @@ body {
 }
 
 .title__text--form {
+    margin-top: 250px;
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 40px;
@@ -299,6 +303,7 @@ body {
 
 .container__section {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 0 40px;
 }
@@ -306,7 +311,8 @@ body {
 #form__container {
     display: flex;
     flex-direction: column;
-    margin-top: 68px;
+    justify-items: flex-end;
+    margin-top: 330px;
 }
 
 .container__input--button {
@@ -328,9 +334,12 @@ body {
     color: #151618;
 }
 
+.input__email {
+    border-bottom: 1px solid #b8b58b;
+    width: 100%;
+}
+
 .input__email::placeholder {
-    /*text-decoration: underline;*/
-    /*padding-top: 15px;*/
     color: #b8b58b;
 }
 
@@ -544,6 +553,7 @@ body {
         padding: 30px 0;
         max-height: 105px;
     }
+
     .nav__controls {
         display: flex;
         align-items: center;
@@ -585,7 +595,7 @@ body {
     }
 
     .collections__tea--image {
-        max-width: 190px;  
+        max-width: 190px;
         object-fit: cover;
     }
 
@@ -602,13 +612,13 @@ body {
         margin-top: 60px;
         gap: 67px 250px;
     }
-    
+
     .img__comment--item {
         display: flex;
         align-items: stretch;
         gap: 20;
     }
-    
+
     .comment__text {
         font-family: var(--second-family);
         font-weight: 400;
@@ -617,6 +627,44 @@ body {
         min-width: 210px;
     }
 
-    
-    
+    .text__instructions {
+        text-align: center;
+        margin-top: 50px;
+        max-width: 780px;
+        max-height: 90px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .container__section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0 40px;
+    }
+
+    #form__container {
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-end;
+        margin-top: 60px;
+    }
+
+    .title__text--form {
+        margin-top: 180px;
+        text-align: center;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 40px;
+        color: #151618;
+    }
+
+    .text__instructions {
+        margin-top: 60px;
+        max-width: 580px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+    }
 }
