@@ -660,20 +660,4 @@ body {
         color: #151618;
     }
 
-    .text__instructions {
-        margin-top: 60px;
-        max-width: 580px;
-        font-weight: 300;
-        font-size: 20px;
-        line-height: 150%;
-        max-width: 100%;
-    }
-
-    .collections__tea-item{
-        display: flex;
-        flex-wrap: nowrap;
-        text-align: center;
-        gap: 40px;
-    }
-    
 }
