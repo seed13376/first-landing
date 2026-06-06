@@ -240,7 +240,7 @@ body {
     grid-template-columns: repeat(2, minmax(460px, 520px));
     grid-template-rows: repeat(2, minmax(153px, 180px));
     margin-top: 60px;
-    gap: 0 58px;
+    gap: 58px;
 }
 
 .img__comment--item {
