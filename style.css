@@ -393,6 +393,8 @@ body {
     margin-bottom: 250px;
 }
 
+
+
 .footer__grid {
     display: grid;
     grid-template-columns: 118px 156px 269px 270px;
@@ -589,9 +591,9 @@ body {
     .collections__tea-list {
         text-align: center;
         display: flex;
-        flex-wrap: nowrap;
         align-items: center;
-        gap: 0;
+        flex-wrap: nowrap;
+        gap: 0px;
     }
 
     .collections__tea--image {
@@ -600,9 +602,13 @@ body {
     }
 
     .customer__comments-list {
-        display: flex;
         flex-wrap: nowrap;
+        justify-content: center;
         gap: 26;
+    }
+
+    .customer__comments-item.none {
+        display: none;
     }
 
     .img__comments--list {
@@ -647,7 +653,6 @@ body {
     #form__container {
         display: flex;
         flex-direction: column;
-        justify-items: flex-end;
         margin-top: 60px;
     }
 
@@ -659,5 +664,10 @@ body {
         font-size: 40px;
         color: #151618;
     }
-
+    .prioritise__list {
+        flex-wrap: wrap;
+        margin-left: 154px;
+        margin-right: 154px;
+        gap: 30px 0;
+    }
 }
